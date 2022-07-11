@@ -23,7 +23,6 @@ createActionItem(item1)
 createActionItem(item2)
 createActionItem(item3)
 
-//_______________________________________________
 let item4 = {
     Nome: "Poster Vocaloid Miku",
     Valor: "R$90,00",
@@ -46,18 +45,6 @@ function createPaintingItem(objeto){
 createPaintingItem(item4)
 createPaintingItem(item5)
 createPaintingItem(item6)
-//1-criar um array de objs
-//2- capturar e armazenar em uma variavel o elemnto estatico 
-//que ira receber os cards
-//3-criar a ul
-//4- criar a li baseada na lista de objetos
-//5- pendurar as li nas ul
-
-
-
-
-
-
 
 function createCards(array,section){
     let cards = cardsFigure(array)
@@ -86,12 +73,5 @@ function cardsFigure(arrayfigures){
     }
     return ul
 }
-//capturar cada uma das sessões
-//chamar a função de crirar cards passando os dois paramentros, 1 vai ser a lista de objs e a segunda a sessão(section)
-
 createCards(listFigure,"figures")
 createCards(listPainting, "posters")
-//cardsFigure(listFigure)
-
-//interar = loop for ou for it
-//nunca colocar script no topo
